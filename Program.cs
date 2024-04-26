@@ -64,7 +64,7 @@ namespace ConsoleApp2
 
                 if (!ValidarNumero || !NotaValida(nota))
                 {
-                    Console.WriteLine("Error, Ingrese un número válido entre 0 y 100.");
+                    Console.WriteLine("Error, Ingrese un numero valido entre 0 y 100.");
                 }
 
             } while (!ValidarNumero || !NotaValida(nota));
